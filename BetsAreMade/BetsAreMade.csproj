@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>c014f0e4-958f-4177-bb92-5c3e00f571f6</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+  <ItemGroup>
+	 <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.20.0" />
+	 <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation" Version="10.4.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataContracts\Settings\" />
+  </ItemGroup>
+
+
+</Project>
